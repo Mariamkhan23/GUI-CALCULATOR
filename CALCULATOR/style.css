@@ -1,0 +1,55 @@
+
+
+.main{
+    border: 4px solid black;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366__340.jpg");
+}
+.inp{
+    width: 295px;
+    height: 80px;
+    font-size: 32px;
+    background-color: ghostwhite;
+    
+}
+.input{
+    margin-bottom: 20px;
+}
+.inp:active{
+    background-color: red;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+   
+}
+
+button{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(223, 215, 215);  
+    cursor: pointer;
+}
+button:hover{
+    border:none;
+    font-size: 25px;
+    transition: .3s;
+    background-color: rgb(128, 155, 177);
+}
+
+.clear{
+    background-color: rgb(236, 171, 171);
+
+}
+.sign{
+    background-color: rgb(238, 218, 158);
+}
